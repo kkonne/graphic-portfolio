@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:url(#SVGID_3_);}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="8.6614" y1="92.4752" x2="92.669" y2="6.1578" gradientTransform="matrix(1 0 0 -1 0 100)">
+	<stop  offset="0" style="stop-color:#2B3990"/>
+	<stop  offset="1" style="stop-color:#1C75BC"/>
+</linearGradient>
+<path class="st0" d="M97.7,49c0-22.4-0.1-33.9-6.5-40.3C84.8,2.4,73.4,2.3,51,2.3l0,0h-1h-1l0,0c-22.4,0-33.9,0.1-40.3,6.5
+	S2.3,26.6,2.3,49l0,0v1v1l0,0c0,22.4,0.1,33.9,6.5,40.3c6.4,6.4,17.9,6.5,40.3,6.5l0,0h1h1l0,0c22.4,0,33.9-0.1,40.3-6.5
+	c6.4-6.4,6.5-17.9,6.5-40.3l0,0v-1V49L97.7,49z M13.6,86.4C9.1,81.8,9.1,71.1,9.1,50s0-31.8,4.6-36.4S28.9,9.1,50,9.1
+	s31.8,0,36.4,4.6s4.6,15.1,4.6,36.4c0,21.1,0,31.8-4.6,36.4S71.1,90.9,50,90.9S18.2,90.9,13.6,86.4z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="8.6614" y1="92.4752" x2="92.669" y2="6.1578" gradientTransform="matrix(1 0 0 -1 0 100)">
+	<stop  offset="0" style="stop-color:#2B3990"/>
+	<stop  offset="1" style="stop-color:#1C75BC"/>
+</linearGradient>
+<path class="st1" d="M50,25.6c-13.5,0-24.4,11-24.4,24.4s11,24.4,24.4,24.4s24.4-11,24.4-24.4S63.5,25.6,50,25.6z M50,67.6
+	c-9.7,0-17.6-7.9-17.6-17.6S40.3,32.4,50,32.4S67.6,40.3,67.6,50S59.7,67.6,50,67.6z"/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="34.9947" y1="118.1039" x2="119.0023" y2="31.7865" gradientTransform="matrix(1 0 0 -1 0 100)">
+	<stop  offset="0" style="stop-color:#2B3990"/>
+	<stop  offset="1" style="stop-color:#1C75BC"/>
+</linearGradient>
+<path class="st2" d="M74.9,19c-2.2,0-4,1.8-4,4s1.7,4,4,4s4-1.8,4-4S77.2,19,74.9,19z"/>
+</svg>

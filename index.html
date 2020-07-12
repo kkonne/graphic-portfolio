@@ -1,0 +1,771 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Graphic portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/png" href="./images/favicon32x32-white.png" />
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="./style.css" type="text/css" />
+
+  <!-- add-on css -->
+  <link rel="stylesheet" href="./timeline.css" type="text/css">
+
+
+</head>
+
+<body>
+
+  <div>
+    <!-- NAV BAR -->
+    <div id="nav">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="./images/jl-logo-white.png" height="32" width="32"
+              class="d-inline-block align-top" alt="Josip Leko" loading="lazy" />Josip Leko</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#projects">Projects <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#clients">Clients <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#contact">Contact <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <br />
+
+    <!-- ABOUT -->
+    <div id="about">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 id="largeh1">about me</h1>
+            <h5 class="lead">
+              I'm a computer science student based in Posušje, BiH
+            </h5>
+            <p>
+              Starting my career as a <b>designer</b> and a
+              <b>web developer</b>. I solve complex problems using simple,
+              beautiful and intuitive designs with modern technology.
+              <br />Multiple years of freelance experience in creating raster and vector graphics. Striving to make my
+              graphic
+              design hobby a full-time job, Join me on my journey!
+            </p>
+          </div>
+
+          <div class="col-md-6 text-center">
+            <img src="./images/portrait-sketch.png" alt="Josip Leko" height="300" />
+          </div>
+        </div>
+
+        <br>
+
+        <div id="more-about-me">
+          <button type="button" class="btn btn-outline-secondary" onclick="showMoreInfo()"> More info </button>
+
+
+        </div>
+
+      </div>
+
+      <br />
+
+
+
+
+    </div>
+
+    <div class="hr">
+      <div class="container-fluid">
+        <hr />
+      </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div id="projects">
+      <div class="container">
+        <h1 id="largeh1" class="text">projects</h1>
+        <p class="lead">some of my latest work below</p>
+
+        <br />
+
+        <div class="row">
+          <div class="col-lg-4">
+            <h5>logo design</h5>
+            <!-- 1st logo -->
+            <p class="small">fitness center</p>
+            <div class="shadow-box">
+              <img class="modal-img" data-toggle="modal" data-target=".bd-example-modal-lg11" src="./projects/logo2.jpg"
+                width="100%" alt="Logo Design" />
+
+              <div class="modal fade bd-example-modal-lg11" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <img src="./projects/logo2-zoom.png" width="100%" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <br><br>
+
+            <!-- 2nd logo -->
+            <p class="small">non profit tech organization</p>
+            <div class="shadow-box">
+              <img class="modal-img" data-toggle="modal" data-target=".bd-example-modal-lg"
+                src="./projects/project1.png" width="100%" alt="Logo Design" />
+
+              <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <img src="./projects/project1-zoom.png" width="100%" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <br><br>
+
+            <!-- 3rd logo -->
+            <p class="small">paintball club</p>
+            <div class="shadow-box">
+              <img class="modal-img" data-toggle="modal" data-target=".bd-example-modal-lg12" src="./projects/logo3.png"
+                width="100%" alt="Logo Design" />
+
+              <div class="modal fade bd-example-modal-lg12" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <img src="./projects/logo3-zoom.jpg" width="100%" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="col-lg-8">
+            <h5>illustration</h5>
+            <p class="small">#tech #ideas #teamwork</p>
+            <div class="shadow-box">
+              <img class="modal-img" data-toggle="modal" data-target=".bd-example-modal-lg3"
+                src="./projects/project3.png" width="100%" alt="Illustration" />
+
+              <div class="modal fade bd-example-modal-lg3" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <img src="./projects/project3-zoom.png" width="100%" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <br><br>
+
+            <!-- 2nd illustration -->
+
+            <p class="small">#coding #programming</p>
+            <div class="shadow-box">
+              <img class="modal-img" data-toggle="modal" data-target=".bd-example-modal-lg31"
+                src="./projects/illustration2.png" width="100%" alt="Illustration" />
+
+              <div class="modal fade bd-example-modal-lg31" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <img src="./projects/illustration2.png" width="100%" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <br><br>
+
+        <!-- promo stuff -->
+        <h5>event promo poster</h5>
+        <p class="small">#party #clubbing</p>
+        <div class="row">
+
+          <div class="col-md-3">
+
+            <div class="shadow-box">
+              <img class="modal-img" data-toggle="modal" data-target=".bd-example-modal-lg41"
+                src="./projects/promo1.png" width="100%" alt="Illustration" />
+
+              <div class="modal fade bd-example-modal-lg41" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <img src="./projects/promo1.png" width="100%" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="shadow-box">
+              <img class="modal-img" data-toggle="modal" data-target=".bd-example-modal-lg42"
+                src="./projects/promo2.png" width="100%" alt="Illustration" />
+
+              <div class="modal fade bd-example-modal-lg42" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <img src="./projects/promo2.png" width="100%" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="shadow-box">
+              <img class="modal-img" data-toggle="modal" data-target=".bd-example-modal-lg43"
+                src="./projects/promo3.png" width="100%" alt="Illustration" />
+
+              <div class="modal fade bd-example-modal-lg43" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <img src="./projects/promo3.png" width="100%" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="shadow-box">
+              <img class="modal-img" data-toggle="modal" data-target=".bd-example-modal-lg44"
+                src="./projects/promo4.png" width="100%" alt="Illustration" />
+
+              <div class="modal fade bd-example-modal-lg44" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <img src="./projects/promo4.png" width="100%" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="shadow-box">
+              <img class="modal-img" data-toggle="modal" data-target=".bd-example-modal-lg45"
+                src="./projects/promo5.png" width="100%" alt="Illustration" />
+
+              <div class="modal fade bd-example-modal-lg45" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <img src="./projects/promo5.png" width="100%" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="shadow-box">
+              <img class="modal-img" data-toggle="modal" data-target=".bd-example-modal-lg46"
+                src="./projects/promo6.png" width="100%" alt="Illustration" />
+
+              <div class="modal fade bd-example-modal-lg46" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <img src="./projects/promo6.png" width="100%" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="shadow-box">
+              <img class="modal-img" data-toggle="modal" data-target=".bd-example-modal-lg47"
+                src="./projects/promo7.png" width="100%" alt="Illustration" />
+
+              <div class="modal fade bd-example-modal-lg47" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <img src="./projects/promo7.png" width="100%" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="shadow-box">
+              <img class="modal-img" data-toggle="modal" data-target=".bd-example-modal-lg48"
+                src="./projects/promo8.png" width="100%" alt="Illustration" />
+
+              <div class="modal fade bd-example-modal-lg48" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <img src="./projects/promo8.png" width="100%" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- last row -->
+        <div class="row">
+          <div class="col-md-3">
+            <div class="shadow-box">
+              <img class="modal-img" data-toggle="modal" data-target=".bd-example-modal-lg410"
+                src="./projects/promo10.png" width="100%" alt="Illustration" />
+
+              <div class="modal fade bd-example-modal-lg410" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <img src="./projects/promo10.png" width="100%" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="shadow-box">
+              <img class="modal-img" data-toggle="modal" data-target=".bd-example-modal-lg49"
+                src="./projects/promo9.png" width="100%" alt="Illustration" />
+
+              <div class="modal fade bd-example-modal-lg49" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <img src="./projects/promo9.png" width="100%" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="shadow-box">
+              <img class="modal-img" data-toggle="modal" data-target=".bd-example-modal-lg411"
+                src="./projects/promo11.png" width="100%" alt="Illustration" />
+
+              <div class="modal fade bd-example-modal-lg411" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <img src="./projects/promo11.png" width="100%" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="shadow-box">
+              <img class="modal-img" data-toggle="modal" data-target=".bd-example-modal-lg412"
+                src="./projects/promo12.png" width="100%" alt="Illustration" />
+
+              <div class="modal fade bd-example-modal-lg412" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <img src="./projects/promo12.png" width="100%" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <br>
+    </div>
+
+    <div class="hr">
+      <div class="container-fluid">
+        <hr />
+      </div>
+    </div>
+
+    <!-- CLIENTS -->
+    <div id="clients">
+      <div class="container">
+        <h1 id="largeh1">clients</h1>
+        <p class="lead">projects finished so far</p>
+
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <p>projects</p>
+
+            <h6 class="largeh6">71</h6>
+            <br>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <p>customers</p>
+            <h6 class="largeh6">29</h6>
+            <br>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <p>returning clients</p>
+            <h6 class="largeh6">21</h6>
+            <br>
+          </div>
+        </div>
+
+        <br>
+
+
+        <!-- timeline -->
+        <div class="container">
+          <div class="page-header">
+            <p class="lead">Simplicity of ordering a design suited for your needs</p>
+          </div>
+          <ul class="timeline">
+            <li>
+              <div class="timeline-badge"><img src="./open-iconic/svg/chat.svg"
+                  style="width: 1.5rem;margin-top: 15px;"></i></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Contact</h4>
+
+                </div>
+                <div class="timeline-body">
+                  <p>Contact me to arrange a call or a video-conference to talk about designing a product or similar
+                    information
+                  </p>
+                  <br>
+                  <a href="#contact"><button class="btn btn-secondary">Contact info</button></a>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge warning"><img src="./open-iconic/svg/people.svg"
+                  style="width: 1.5rem;margin-top: 11px;"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Meeting</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Understanding your needs, answering your questions, brushing up on details, setting a due date that
+                    suits both sides</p>
+                  <hr>
+                  <p><img src="./open-iconic/svg/dollar.svg" style="size: 10rem;"> Setting a price</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-badge info"><img src="./open-iconic/svg/image.svg"
+                  style="width: 1.5rem;margin-top: 11px;"></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Receiving a product</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Getting initial designs delivered, discussing the results</p>
+                  <hr>
+                  <p><img src="./open-iconic/svg/loop.svg" style="size:10rem;"> Revision if necessary</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-badge success"><img src="./open-iconic/svg/check.svg"
+                  style="width: 1.5rem;margin-top: 11px;"></span></div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">Finalization</h4>
+                  <p><img src="./open-iconic/svg/calendar.svg" style="size: 10rem;"><small class="text-muted"> Due
+                      date</small></p>
+                </div>
+                <div class="timeline-body">
+                  <p>Receiving finalized, perfected product with all publishing rights</p>
+                  <hr>
+                  <p>Payment</p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+        <br>
+
+
+      </div>
+
+      <div class="brands">
+        <div class="container-fluid">
+          <div class="container">
+            <br>
+            <p class="lead">brands who trusted my capabilities</p>
+            <div class="row brands fi-align-center">
+              <div class="col-md-4 text-center">
+                <img src="./clients/1.png" alt="FPMOZ">
+              </div>
+              <div class="col-md-4 text-center">
+                <img src="./clients/5.png" alt="Termodinamika d.o.o">
+              </div>
+              <div class="col-md-4 text-center">
+                <img src="./clients/3.png" alt="Udruga Switch">
+              </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+              <div class="col-md-4 text-center">
+                <img src="./clients/2.png" alt="Caffe Tropicana">
+              </div>
+              <div class="col-md-4 text-center">
+                <img src="./clients/4.png" alt="Samba bar">
+              </div>
+              <div class="col-md-4 text-center">
+                <img src="./clients/6.png" alt="Caffe bar Padre">
+              </div>
+            </div>
+            <p class="lead text-right">...and I expect this list to grow fast</p>
+            <br>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- CONTACT -->
+    <div id="contact">
+      <div class="container">
+        <h1 id="largeh1">contact</h1>
+        <p class="lead">you can find me here</p>
+
+        <br />
+
+        <div class="row">
+          <div class="col-4">
+            <a href="tel:0038763121969"><img src="./images/mobile.svg" alt="Mobile phone" height="50" /></a>
+            <p>mobile phone<br /><b>+387 63 121-969</b></p>
+          </div>
+          <div class="col-4">
+            <a href="mailto:josipleko@mail.com" target="_blank"><img src="./images/email.svg" alt="Email"
+                height="50" /></a>
+            <p>email:<br /><b>josipleko@mail.com</b></p>
+          </div>
+          <div class="col-4">
+            <img src="./images/location.svg" alt="Location" height="50" />
+            <p>
+              address:<br />
+              <b>Posušje, BiH</b>
+            </p>
+          </div>
+        </div>
+
+        <br />
+
+        <div class="row">
+          <div class="col-4">
+            <a href="https://www.instagram.com/josip.leko" target="_blank"><img src="./images/instagram.svg"
+                alt="Instagram" height="50" /></a>
+            <p>instagram<br />@<b>josip.leko</b></p>
+          </div>
+          <div class="col-4">
+            <a href="https://www.facebook.com/josip.leko.39" target="_blank"><img src="./images/facebook.svg"
+                alt="Facebook" height="50" /></a>
+            <p>facebook<br />/<b>josip.leko.39</b></br></p>
+          </div>
+          <div class="col-4">
+            <a href="https://www.linkedin.com/in/josip-leko-00284219a" target="_blank"><img src="./images/linkedin.svg"
+                alt="LinkedIn" height="50" /></a>
+            <p>linkedin<br />/<b>josip-leko-00284219a</b></p>
+          </div>
+        </div>
+      </div>
+
+      <br>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <div class="copyright bg-dark text-center container-fluid">
+        <p class="text-light">© Josip Leko 2020, All Rights Reserved</p>
+      </div>
+    </div>
+
+    <!-- SCROLL UP BUTTON -->
+    <a href="#nav">
+      <button class="btn btn-primary" id="myBtn" title="Go to top">
+        <svg class="bi bi-arrow-up-short" width="25px" height="25px" viewBox="0 0 16 16" fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M8 5.5a.5.5 0 01.5.5v5a.5.5 0 01-1 0V6a.5.5 0 01.5-.5z" clip-rule="evenodd" />
+          <path fill-rule="evenodd"
+            d="M7.646 4.646a.5.5 0 01.708 0l3 3a.5.5 0 01-.708.708L8 5.707 5.354 8.354a.5.5 0 11-.708-.708l3-3z"
+            clip-rule="evenodd" />
+        </svg>
+      </button>
+    </a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+
+  <!-- JAVASCRIPT -->
+  <script>
+
+    let scrollFunction = () => {
+      mybutton = document.getElementById("myBtn");
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    };
+
+    new Vue({
+      el: "#clients",
+      data: {
+        clientsList: [
+          "FPMOZ",
+          "Udruga Switch",
+          "Caffe Bar Padre",
+          "Caffe Bar Mexx",
+          "Hostel Balkaneros",
+          "Samba Bar",
+          "Caffe Bar Tropicana",
+        ],
+      },
+      methods: {},
+    });
+
+    let showMoreInfo = () => {
+      let content = `
+
+          <div class="row">
+            <div class="col-md-4">
+              <h1 class="display-4">Knowledge</h1>
+              <p>As for graphic design, I can tackle any of your ideas; I have experience in creating abstract, mascot,
+                emblem, pictorial and lettermark logos. I do illustrations, high res promo posters, flyers, business
+                cards - any
+                visual content you may need</p>
+              
+            </div>
+
+            <div class="col-md-4">
+              <h1 class="display-4">Experience</h1>
+              <p>I've been working in graphic design field since early high school so I've been doing this since around 2015. I've worked with multiple clients - each requesting different products; on multiple projects in teams for university projects. I didn't have a full time job as I wanted to finish baccalaureus degree.
+            </div>
+
+            <div class="col-md-4">
+              <h1 class="display-4">Tools</h1>
+              <p>I use widely distributed, standard Adobe suite to bring my designs to life
+                <br/>I use Photoshop for raster design and photo manipulation, Illustrator for vector designs, inDesign
+                for page design and lastly Lightroom for photo editing & retouching
+                <br>I haven't found a solid video editing software as I'm not into video editing yet, I've mostly worked with Filmora & Sony
+                Vegas
+              </p>
+            </div>
+          </div>
+
+          <h1 class="display-4 text-center">Education</h1>
+          <blockquote class="blockquote text-center">
+            <p class="mb-0">High school gymnasium</p>
+            <footer class="blockquote-footer">2013.-2017. - <cite title="High school">Gimnazija fra Grge Martića</cite></footer>
+
+            <p class="mb-0">Computer science college</p>
+            <footer class="blockquote-footer">2018. - <cite title="College">Fakultet prirodoslovno-matematičkih odgojnih znanosti Mostar</cite></footer>
+          </blockquote>
+
+          <br/>
+          <p>While I spend most of my time designing, coding and researching
+            newest trends and techonologies, you can also find me binge
+            watching YouTube, at the gym or out in the nature.</p>
+
+          <hr>
+
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="./images/jl/1.jpg" alt="" width="100%">
+            </div>
+            <div class="col-lg-4">
+              <img src="./images/jl/2.jpg" alt="" width="100%">
+            </div>
+            <div class="col-lg-4">
+              <img src="./images/jl/1.png" alt="" width="100%">
+            </div>
+          </div>
+          <button type="button" class="btn btn-outline-secondary" onclick="hideInfo()">Hide info</button>`;
+      document.getElementById("more-about-me").innerHTML = content;
+    };
+
+    let hideInfo = () => {
+      let content = `<button type="button" class="btn btn-outline-secondary" onclick="showMoreInfo()"> More info </button>`;
+      document.getElementById("more-about-me").innerHTML = content;
+    };
+
+    window.onscroll = () => {
+      scrollFunction();
+    };
+
+
+
+
+
+
+
+    console.log("%c Created by Josip Leko!", "color: red");
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
